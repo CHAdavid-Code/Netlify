@@ -1,0 +1,67 @@
+h1 {
+    color: red;
+    background-color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: large;
+    margin: 20px;
+}
+
+h2 {
+    color: white;
+    background-color: black;
+    font-weight: 600;
+    font-family: "Merriweather", serif;
+    margin: 20px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+
+    font-weight: 300;
+}
+
+p,
+ul {
+    margin: 20px;
+}
+
+.one {
+    background-color: orange;
+}
+
+.two {
+    background-color: green;
+    width: 100;
+    width: 100;
+}
+
+span {
+    background-color: yellow;
+    width: 10000px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: block;
+}
+
+/* Toujours mettre les media queries a la fin des CSS */
+
+@media (min-width: 584px) {
+    body {
+        display: grid;
+        grid-template-columns: 5fr 7fr;
+        padding: 20px;
+
+        /* TODO: Centrer le body */
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 800px;
+
+        /* TODO: Mettre une gouttière*/
+        gap: 20px;
+        /* TODO: Intervertir l'image et la div */
+    }
+    img {
+    }
+}
