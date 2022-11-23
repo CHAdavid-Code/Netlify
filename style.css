@@ -63,5 +63,6 @@ span {
         /* TODO: Intervertir l'image et la div */
     }
     img {
+        order: -1;
     }
 }
